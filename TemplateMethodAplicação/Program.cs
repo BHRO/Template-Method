@@ -8,9 +8,13 @@ namespace TemplateMethodAplicação
 {
     class Program
     {
-
+        
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Beep();
+            
             int operador = 0;
             int sair = 1;
             string voltar = "\nPressione qualquer tecla para voltar";     

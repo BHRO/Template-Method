@@ -11,13 +11,13 @@ namespace TemplateMethodAplicação
 
         public void Prerarar() // Esse é o Template Method, ele define a sequência de etapas a serem executadas.
         {
-            EsquentarAgua(); //Passo 1
-            Mistura(); // Passo 2 
-            ColocarEmCopo(); // Passo 3
+            this.EsquentarAgua(); //Passo 1
+            this.Mistura();       // Passo 2 
+            this.ColocarEmCopo(); // Passo 3
 
-            if( TemCondimentos() == true){
+            if( this.TemCondimentos() == true){
 
-                AddCondimentos(); // Passo 4
+            this.AddCondimentos();// Passo 4
 
             }
 
